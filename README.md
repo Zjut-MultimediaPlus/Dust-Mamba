@@ -45,8 +45,9 @@ python train.py --model=SwinUNet --dir_hdfdata="/opt/data/private/" --dir_csv="/
 python train_transfer_learning_strategies_1_and_2.py --dir_hdfdata="/opt/data/private/" --dir_csv="/opt/data/private/" --dir_pretrained_model="/root/my_model/checkpoint/Occurrence_Detection/18 Channels/Dust-Mamba.pth" --train_all_params=True --cfg=detect_cfg.yml --save=tmp_dustdetect
 ```
 
-```bash
+
 ### Train transfer learning strategies 3：
+```bash
 python train_transfer_learning_strategies_3.py  --dir_hdfdata="/opt/data/private/" --dir_csv="/opt/data/private/"  --cfg=detect_cfg.yml --save=tmp_dustdetect
 ```
 
