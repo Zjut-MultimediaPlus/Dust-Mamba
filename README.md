@@ -49,7 +49,7 @@ python train_transfer_learning_strategies_1_and_2.py --dir_hdfdata="/opt/data/pr
 python train_transfer_learning_strategies_3.py  --dir_hdfdata="/opt/data/private/" --dir_csv="/opt/data/private/"  --cfg=detect_cfg.yml --save=tmp_dustdetect
 ```
 
-### Test
+## Test
 
 ### Test model train from scratch or  transfer learning strategies 1 - 2：
 ```bash
