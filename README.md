@@ -51,13 +51,13 @@ python train_transfer_learning_strategies_3.py  --dir_hdfdata="/opt/data/private
 
 ## Test
 
-### Test model train from scratch or  transfer learning strategies 1 - 2：
+### Test model trained from scratch or transfer learning strategies 1 - 2：
 ```bash
 python test.py --model=UNet --dir_hdfdata="/opt/data/private/" --dir_csv="/opt/data/private/" --dir_checkpoint="/root/my_model/checkpoint/Intensity_Detection/Dust-Mamba_train_from_scratch.pth" --cfg=detect_cfg.yml --save=tmp_dustdetect
 ```
 
 
-### Test model train from transfer learning strategies 3：
+### Test model trained from transfer learning strategies 3：
 ```bash
 python test_strategies_3.py --dir_hdfdata="/opt/data/private/" --dir_csv="/opt/data/private/" --dir_checkpoint="/root/my_model/checkpoint/Intensity_Detection/Dust-Mamba_joint_training.pth" --cfg=detect_cfg.yml --save=tmp_dustdetect
 ```
