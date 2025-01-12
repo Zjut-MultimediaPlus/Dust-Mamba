@@ -1,0 +1,28 @@
+dataset:
+  dataset_name: "dataset"
+  use_sat_channels: [ 0, 1, 6, 9, 10, 11 ] #
+  use_mete_channels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] # If meteorological data is needed, specify the list of channel indices to use
+#  use_mete_channels: [] # If meteorological data is not needed, set the list to empty
+  num_classes: 7 # Set to 7 for intensity detection and 2 for occurrence detection; remember to update the _read_data function in the detect_dataloader accordingly
+  img_height: 448
+  img_width: 896
+  start_date: [ 2020, 3, 1 ]
+  train_val_split_date: [ 2022, 3, 1 ]
+  train_test_split_date: [ 2022, 4, 1 ]
+  end_date: [ 2022, 6, 1 ]
+optim:
+  batch_size: 2
+  epochs: 200
+  lr: 5e-4 # If gradient explosion occurs, consider using a smaller learning rate.
+  amp: True
+  weight_decay: 1e-4
+  loss_weight: 0.5
+  bilinear: True
+model:
+  cfg: "configs/swin_tiny_patch4_window7_224_lite.yaml"
+  vit_name: "R50-ViT-B_16"
+  vit_patches_size: 16
+  n_skip: 3
+gpus: "0"
+save_checkpoint: True
+
