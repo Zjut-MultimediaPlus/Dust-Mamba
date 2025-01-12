@@ -25,63 +25,11 @@ Checkpoints/ **(already provided)**
 
 ├── Intensity_Detection/ 
 
-│   ├── +MRDF.pth
-
-│   ├── +VSB.pth
-
-│   ├── AttUNet.pth
-
-│   ├── Dust-Mamba_joint_training.pth
-
-│   ├── Dust-Mamba_train_entire_model.pth
-
-│   ├── Dust-Mamba_train_final_layer.pth   
-
-│   ├── Dust-Mamba_train_from_scratch.pth  
-
-│   ├── SwinUNet.pth            
-
-│   ├── TransUNet.pth          
-
-│   ├── UNet.pth                
-
-│   ├── UNet++.pth              
-
-│   └── VMUNet.pth             
-
 ├── Occurrence_Detection/ 
 
 │   ├── 6_Channels/ 
 
-│   │   ├── AttUNet.pth
-
-│   │   ├── SwinUNet.pth
-
-│   │   ├── TransUNet.pth
-
-│   │   ├── UNet.pth 
-
-│   │   └── UNet++.pth
-
 │   └── 18_Channels/ 
-
-│       ├── +MRDF.pth
-
-│       ├── +VSB.pth
-
-│       ├── AttUNet.pth
-
-│       ├── Dust-Mamba.pth
-
-│       ├── SwinUNet.pth
-
-│       ├── TransUNet.pth
-
-│       ├── UNet.pth
-
-│       ├── UNet++.pth
-
-│       └── VMUNet.pth
 
 ## Train
 
