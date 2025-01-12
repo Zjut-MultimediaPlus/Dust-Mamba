@@ -1,8 +1,6 @@
 # Dust-Mamba
 The code of "Dust-Mamba: An Efficient Dust Storm Detection Network With Multiple Data Sources" accepted by AAAI2025.
 
-Paper:....
-
 ## Requirements
 
 Python 3.8.8
