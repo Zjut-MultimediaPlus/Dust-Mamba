@@ -19,11 +19,7 @@ Dataset: https://github.com/Zjut-MultimediaPlus/LSDSSIMR
 
 Paper:  https://ieeexplore.ieee.org/abstract/document/10287393
 
-CSV:  Stores the paths for dataset **(already provided)**.
-
 Checkpoints https://pan.baidu.com/s/1z1LWK5yGjp8i-iwiZxeuHA?pwd=tcyc 
-
-
 
 ├── Intensity_Detection/ 
 
@@ -32,6 +28,8 @@ Checkpoints https://pan.baidu.com/s/1z1LWK5yGjp8i-iwiZxeuHA?pwd=tcyc
 │   ├── 6_Channels/ 
 
 │   └── 18_Channels/ 
+
+CSV: Lists the paths of the dataset utilized. **(already provided)**.
 
 ## Train
 
