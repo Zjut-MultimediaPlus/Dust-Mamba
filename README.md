@@ -1,5 +1,5 @@
 # Dust-Mamba
-The code of "Dust-Mamba: An Efficient Dust Storm Detection Network With Multiple Data Sources" accepted by AAAI2025.
+The paper "Dust-Mamba: An Efficient Dust Storm Detection Network With Multiple Data Sources" has been accepted by AAAI2025.
 
 ## Requirements
 
