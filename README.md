@@ -1,6 +1,6 @@
 # Dust-Mamba
 
-📄 [Dust-Mamba: An Efficient Dust Storm Detection Network with Multiple Data Sources](https://doi.org/10.1609/aaai.v39i27.34997) — *Accepted at AAAI 2025* ☁️
+📄 [Dust-Mamba: An Efficient Dust Storm Detection Network with Multiple Data Sources](https://doi.org/10.1609/aaai.v39i27.34997) — *Accepted at AAAI 2025* 
 
 ## Requirements
 
