@@ -15,7 +15,7 @@ Dependencies for the Mamba model can be found in the `packs` folder.
 
 Dataset: https://github.com/Zjut-MultimediaPlus/LSDSSIMR 
 
-Paper:  https://ieeexplore.ieee.org/abstract/document/10287393
+Dataset Paper:  https://ieeexplore.ieee.org/abstract/document/10287393
 
 Checkpoints https://pan.baidu.com/s/1z1LWK5yGjp8i-iwiZxeuHA?pwd=tcyc 
 
