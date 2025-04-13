@@ -1,5 +1,6 @@
 # Dust-Mamba
 The paper "Dust-Mamba: An Efficient Dust Storm Detection Network With Multiple Data Sources" has been accepted by AAAI2025.
+Paper: https://ojs.aaai.org/index.php/AAAI/article/view/34997
 
 ## Requirements
 
