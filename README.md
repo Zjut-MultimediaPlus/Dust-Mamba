@@ -19,7 +19,7 @@ Dataset: https://github.com/Zjut-MultimediaPlus/LSDSSIMR
 
 Dataset Paper:  https://ieeexplore.ieee.org/abstract/document/10287393
 
-Checkpoints https://pan.baidu.com/s/1z1LWK5yGjp8i-iwiZxeuHA?pwd=tcyc 
+Checkpoints https://pan.baidu.com/s/1BazQb4v8plLpTbmFODeCbg?pwd=khve
 
 ├── Intensity_Detection/ 
 
